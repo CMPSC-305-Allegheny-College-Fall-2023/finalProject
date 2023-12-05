@@ -1,4 +1,3 @@
-
 # Database Systems (CS305): Final Project Assignment
 
 **Assigned** : Tuesday, 5 December 2023
@@ -22,17 +21,17 @@ These project goal contribute to the below course learning outcomes described in
 
 # Introduction
 
-In our lab, we had a visit from three speakers from [Acutec](https://acutecprecision.com/) -- a company that machines aerospace parts from  metal blocks. One of the main concerns in their industry is that the finalized part that is produced will have faults (incurred due to the quality of metal, production or from other source). Faults prevent the damaged tool from passing inspections. In this case, any part that does not conform to specifications are labeled as *scrap* and must be destroyed, leading to waste.
+In our lab, we had a visit from three speakers from [Acutec](https://acutecprecision.com/) -- a company that machines aerospace parts from metal blocks. One of the main concerns in their industry is that the finalized part that is produced will have faults (incurred due to the quality of metal, production or from other sources). Faults prevent the damaged tool from passing inspections. In this case, any part that does not conform to specifications are labeled as *scrap* and must be destroyed, leading to waste.
 
 # Group Work
 
-This project should be completed in teams (no more than three people in a team), however, you may still choose to work alone. If working in a team, all members of the team are expected to contribute to the project more or less equally, as evident by Github *commit history*.
+This project should be completed in teams (no more than three people in a team), however, you may still choose to work alone. If working in a team, all members of the team are expected to contribute to the project more or less equally, as evidenced by Github *commit history*.
 
 # Project Overview
 
 In this final project, you are to demonstrate your database and analysis skills by studying the data which our speakers have given us. In particular, you are to use the given data to design and execute queries that may provide some type of trend, insight or an association to wasted material, or another resource such as time, material, or another metric.
 
-While this is an open project, where you can explore whatever aspect of the data you like, you must still provide ample discussion using clear and meaningful language (No one-liners, please.) when you introduce your discoveries of trends in your discussion.  
+While this is an open project, where you can explore whatever aspect of the data you like, you must still provide ample discussion using clear and meaningful language (No one-liners, please.) when you introduce your discoveries of trends in your discussion.
 
 # Data
 
@@ -44,7 +43,7 @@ The shared data repository for this project is located on the Google Drive, and 
 
 For this project, the speakers from Acutec gave us an overview of the data that is mentioned above. Please consult your notes from the speakers' talk as necessary to remind you of the different types of data which has been made available to you for this study.
 
-Be sure to make an effort to understand the organization of the tables. In addition, you may want to determine what type of data is offered by each type of a table so that you have an idea about the purpose of the table.
+Be sure to make an effort to understand the organization of the tables. In addition, you may want to determine what type of data is offered by each type of table so that you have an idea about the purpose of the table.
 
 Note: You may find that you are unable to define all data attributes in your database. If you are confused about the nature of an attribute, then do not worry! Spend a moment to see how this unknown attribute may be related to the rest of the data in the base. This will help you to determine how the attribute may be used in conjunction with other types of queries.
 
@@ -52,7 +51,7 @@ Note: You may find that you are unable to define all data attributes in your dat
 
 In the shared data repository for this project, the supplied data file, `Acutec_datadump_nonconformance.csv`, the attribute, `ColorCurrent` contains the results of the inspection of a particular part. In the supplied database (`acutecDB.sqlite3`), the table `nonconformance` also contains the same information. The word, "RED" is used to signify that a manufactured part was defective and has been "RED Tagged" to remove it from further production. Note, in the supplied database, the table `nonconformance` also contains this same information.
 
-It is highly recommended that you start using this table to note which parts have RED tags. Once you have determined a query to determine the RED fields, continue your work to find what other attributes are connected (related) to these defective tools. Work backward and see where you end up. Please be sure to write down all your thoughts and decisions you make so that your work can be retraced.
+It is highly recommended that you start using this table to note which parts have RED tags. Once you have determined a query to determine the RED fields, continue your work to find what other attributes are connected (related) to these defective tools. Work backward and see where you end up. Please be sure to write down all your thoughts and decisions you make so that your work can be re-traced.
 
 ---
 
@@ -67,10 +66,10 @@ While you are given a lot of freedom to explore given data, your project must sa
 3. Use the `sqlite3` database and explain its schema. For ease of assignment evaluation, please use the database provided to you. If you create your own database, please use the same naming conventions as are in the provided database.
 3. Design and execute at least 20 advanced structured queries stored in `src/queries.md` to answer the chosen research questions.
 4. Write a project report in `writing/report.md` file that contains:
-    * an overview of the project (explanation of data, selected research questions and motivation for their selection)
-    * explanation of the database schema
-    * overview of the constructed queries
-    * conclusions from the executed queries, including visual graphs of your results
+* an overview of the project (explanation of data, selected research questions and motivation for their selection)
+* explanation of the database schema
+* overview of the constructed queries
+* conclusions from the executed queries, including visual graphs of your results
 
 ### Deliverables
 
@@ -110,11 +109,11 @@ git push
 
 The grade that a student receives on this assignment will have the following components.
 
-* **Quality of research questions [up to 25%]**: For this component, the depth of the questions shall be graded. For instance, are the questions actually inquiring into something deep which may stem from some kind of trend in the data. The questions should not be answerable using a *yes* or *no* answer, or by collecting some basic statistical answer such as counting something in a table. Naturally, these types of simple queries may be included in the study, but such queries are not to be considered as over-arching *Research questions*.)  
+* **Quality of research questions [up to 25%]**: For this component, the depth of the questions shall be graded. For instance, are the questions actually inquiring into something deep which may stem from some kind of trend in the data. The questions should not be answerable using a *yes* or *no* answer, or by collecting some basic statistical answer such as counting something in a table. Naturally, these types of simple queries may be included in the study, but such queries are not to be considered as overarching *Research questions*.)
 
 * **Mastery of Technical Knowledge and Skills [up to 60%]**: Students will receive a portion of their assignment grade when their program implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this assignment. As a part of this grade, the instructor will assess aspects of the programming including, but not limited to, the completeness and the correctness of the program and the use of effective source code comments.
 
-* **Mastery of Technical Writing [up to 15%]:**: Students students will receive a portion of their grade for their responses to the writing questions presented in the deliverable Files of the directory `writing/` that reveal a proficiency of both writing skills and technical knowledge. To receive a grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers. There should not be any one-liners present in the responses.
+* **Mastery of Technical Writing [up to 15%]:**: Students will receive a portion of their grade for their responses to the writing questions presented in the deliverable Files of the directory `writing/` that reveal a proficiency of both writing skills and technical knowledge. To receive a grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers. There should not be any one-liners present in the responses.
 
 ## GatorGrade
 
