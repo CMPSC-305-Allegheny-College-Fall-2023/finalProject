@@ -129,8 +129,8 @@ You can check the baseline writing and commit requirements for this lab assignme
 
 Then, if you have not done so already, you need to install `gatorgrade`:
 
-- First, [install `pipx`](https://pypa.github.io/pipx/installation/)
-- Then, install `gatorgrade` with `pipx install gatorgrade`
+* First, [install `pipx`](https://pypa.github.io/pipx/installation/)
+* Then, install `gatorgrade` with `pipx install gatorgrade`
 
 Finally, you can run `gatorgrade`:
 
